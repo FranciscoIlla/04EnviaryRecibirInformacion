@@ -8,19 +8,21 @@
 
     <EditText
         android:id="@+id/txtPasswordMain"
-        android:layout_width="373dp"
+        android:layout_width="0dp"
         android:layout_height="36dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/txtxEmail" />
 
     <Button
         android:id="@+id/btnDesencriptar"
-        android:layout_width="359dp"
+        android:layout_width="0dp"
         android:layout_height="48dp"
         android:layout_marginStart="27dp"
         android:layout_marginTop="52dp"
@@ -29,5 +31,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPasswordMain" />
+
+    <EditText
+        android:id="@+id/txtxEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
