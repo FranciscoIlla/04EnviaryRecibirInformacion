@@ -1,6 +1,8 @@
 package francisco.illa.a04_enviaryrecibirinformacion.Modelos;
 
-public class Direccion {
+import java.io.Serializable;
+
+public class Direccion implements Serializable {
 
     private String calle;
     private int numero;
